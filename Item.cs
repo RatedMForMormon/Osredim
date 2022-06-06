@@ -14,7 +14,7 @@ Class Item(Monobehavior)
       itemType = type;
       itemAttributes = attributes;
       itemEffects = effects;
-      
+      typeName = getType(itemName);
     }
     
     public string getName(){
@@ -28,6 +28,8 @@ Class Item(Monobehavior)
           return "armor";
         case 'w':
           return "weapon";
+        default:
+          return "Type does not exist for " + type;
       }
     }
     
