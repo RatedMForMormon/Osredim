@@ -3,13 +3,13 @@ using Unity;
 
 Class Item(Monobehavior)
   {
-    string itemName = new string();
-    char itemType = new char();
-    Dictionary itemAttributes = new Dictionary();
-    Dictionary itemEffects = new Dictionary();
-    string typeName = new string();
+    private string itemName = new string();
+    private char itemType = new char();
+    private Dictionary itemAttributes = new Dictionary();
+    private Dictionary itemEffects = new Dictionary();
+    private string typeName = new string();
   
-    Item(string name, char type, Dictionary attributes, Dictionary effects){
+    public Item(string name, char type, Dictionary attributes, Dictionary effects){
       itemName = name;
       itemType = type;
       itemAttributes = attributes;
