@@ -44,3 +44,16 @@ Black magic, if chosen, gives you a "blessing"
 Black magic is a void, it focuses on "draining" to make yourself more powerful, so there are a great number of effects to can get by using it, such as draining another's HP regens your own, or draining someone's active skill gives it to you for a limited time.
 * Curse of Black magic - the player cannot use colored magic and gains +20% more experience, allows the use of black magic
 * Drain Target
+
+## Colorless
+Anything to do with transportation
+
+Tasks that need completed for this to work
+
+* NPC class created
+* Item class created
+* interactor class created - interacts with various things, allows spells to affect their targets - calls functions that lower numbers associated with the target
+  * can interact with Spells, NPCs, Items, Players(including self) 
+* Spell class? could potentially be the same or a child of interactor
+* weapon class? child of item - also an interactor
+* armor class? child of item - not an interactor, other items calculate its interaction depending on the skills and attributes it has
