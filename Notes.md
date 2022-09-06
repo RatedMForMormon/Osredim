@@ -1,3 +1,5 @@
+Here's a few notes from before I made this repository
+
 # Osredim Game
 
 In order to make my idea into a game, I need to break it down into tasks. In order to do this, I am going to break it down into it's core components and then break it down further.
