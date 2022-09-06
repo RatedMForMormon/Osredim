@@ -57,3 +57,4 @@ Tasks that need completed for this to work
 * Spell class? could potentially be the same or a child of interactor
 * weapon class? child of item - also an interactor
 * armor class? child of item - not an interactor, other items calculate its interaction depending on the skills and attributes it has
+* Something that creates a new item
