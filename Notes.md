@@ -78,3 +78,5 @@ With the various Effects you can unlock, you can apply them to spells to create 
 Your spellbook will have real usage, depending on the level of the book you use, you can save a certain number of configurations, a whole lot more than keybinds would give. You are also able to switch out the keybinds, and are also able to select keybind configs within the spellbook.
 ### Sale
 You are able to teach spell configurations to other players, and they are able to use them even if they don't have the effects unlocked. You can sell entire spellbooks.
+
+By using another person's spells, you gain color proficiency at 5% the normal rate, you gain experience points at 50%
