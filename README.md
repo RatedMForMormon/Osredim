@@ -5,6 +5,8 @@ Currently all of Project Osredim is in my head, and I am in the process of break
 
 I can always use some help with creating the tasks if they are not specific enough (or if they're just terible in general)
 
+[The Tasks](https://github.com/RatedMForMormon/Osredim/blob/main/tasks-main.md)
+
 # The game
 
 A brief overview of the game
