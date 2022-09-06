@@ -11,7 +11,7 @@ Complete the LOWEST level of tasks before attempting to complete a higher one
 # Full Game
 ## Gameplay
 * Abilities
-  * Color-based - see color-based file
+  * Color-based - see [color-based](https://github.com/RatedMForMormon/Osredim/blob/main/tasks-color-based.md) file
   * Generic - see generic abilities file
   * TASK - Create spell creator
 * Quests
