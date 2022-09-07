@@ -2,8 +2,8 @@ a "Pseudo-code" file detailing what an item is and all the different things that
 
 # Item
 * Name - string
-* Magic retention coefficient - int (-100 to 100) - determine 
-* Channeling coefficient - int (0 - limit)
+* Magic retention coefficient - int (-100 to 100) // Every item with an active magic effect has the capacity to store mana, a positive coefficient stores a little bit of mana each use, while a negative coefficient loses some stored mana with each use (the stored mana can then be used to cast it's active effects without using up your mana. The item will break and needs repairing if the amount stored exceeds its limit)
+* Channeling coefficient - int (0 - limit) // how efficient mana use is with the item, the higher the number, the better cost/effect ratio
 * weight - int (0 - limit)
 ## Weapon
 * Type (Blade/Blunt/Range) - int(0-2) // I might get rid of range and just consider arrows as individual weapons
@@ -15,17 +15,17 @@ a "Pseudo-code" file detailing what an item is and all the different things that
 ## Armor
 * Type
   * Head
-fullhelm/halfhelm/mask/eyepiece/cap
+(fullhelm/halfhelm/mask/eyepiece/cap)
   * Body
-cape/plate/chest/abdomen/back
+(cape/plate/chest/abdomen/back)
   * Arms
-forearms/biceps/elbows
+(forearms/biceps/elbows)
   * hands
-gloves/gauntlets
+(gloves/gauntlets)
   * legs
-Thigh/calf/knee/greaves
+(Thigh/calf/knee/greaves)
   * feet
-pauldron
+(pauldron)
 * Effect modifier 'a'
 * cumberance - int (0-9) // Cumberance represents the limit on how hard it is to put an item over another
 ## Consumable
