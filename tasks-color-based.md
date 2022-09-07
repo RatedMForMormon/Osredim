@@ -52,7 +52,7 @@ Tasks that need completed for this to work
 
 * NPC class created
 * Item class created
-* interactor class created - interacts with various things, allows spells to affect their targets - calls functions that lower numbers associated with the target
+* interactor class created - interacts with various things, allows spells to affect their targets - calls functions that lower or raise numbers associated with the target
   * can interact with Spells, NPCs, Items, Players(including self) 
 * Spell class? could potentially be the same or a child of interactor
 * weapon class? child of item - also an interactor
