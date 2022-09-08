@@ -7,4 +7,12 @@ I can always use some help with creating the tasks if they are not specific enou
 
 [The Tasks](https://github.com/RatedMForMormon/Osredim/blob/main/tasks-main.md)
 
+# How to
 
+###### Downloads
+
+What do I need?
+
+###### Setup Instructions
+
+What steps do I need to take to get this up and running?
