@@ -1,7 +1,7 @@
 # Generic Abilities
 These are the abilities that don't apply to the color wheel
 
-For the effects that can be applied to them, see the [Effects]() file
+For the effects that can be applied to them, see the [Effects](https://github.com/RatedMForMormon/Osredim/edit/main/effects.md) file
 
 ## Physical
 * Punch - deals only physical damage, if given an effect, amplifies the effect by 2x
