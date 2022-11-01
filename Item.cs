@@ -5,8 +5,8 @@ Class Item(Monobehavior)
   {
     private string itemName = new string();
     private char itemType = new char();
-    private Dictionary itemAttributes = new Dictionary();
-    private Dictionary itemEffects = new Dictionary();
+    private Dictionary itemAttributes = new Dictionary(); // HP will act as durability
+    private Dictionary itemEffects = new Dictionary(); // Effect name: Effect intensity
     private string typeName = new string();
   
     public Item(string name, char type, Dictionary attributes, Dictionary effects){
