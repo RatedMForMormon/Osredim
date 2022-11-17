@@ -1,0 +1,7 @@
+Class NPC()
+  int HP
+  int MP
+  int STAM
+  int FAVOR // Favor is a stat that tells the NPC how much they like you, -100 is hostile, 100 is loyal
+  string NAME
+  
