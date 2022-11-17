@@ -4,4 +4,33 @@ Class NPC()
   int STAM
   int FAVOR // Favor is a stat that tells the NPC how much they like you, -100 is hostile, 100 is loyal
   string NAME
+  bool NECESSARY
   
+  reduce_health(value) // also create an increase function for all of these
+    IF value > HP
+      kill this NPC
+    ELSE
+      HP = HP - value
+   
+  reduce_mana(value)
+    IF value > MP
+      MP = 0
+    ELSE
+      MP = MP - value
+      
+  reduce_stamina(value)
+    IF value > STAM
+      STAM = 0
+    ELSE
+      STAM = STAM - value
+      
+  reduce_favor(value)
+    FAVOR = FAVOR - value
+    IF FAVOR < -100
+      FAVOR = -100
+  
+  kill()
+    IF !NECESSARY
+      delete the npc
+    ELSE
+      throw them back to their original point, or do the next thing that progresses the story
