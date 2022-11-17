@@ -15,12 +15,13 @@ Spell() extends Interactor
     other
     area
   
-  PossibleTargets <- List of Target()s EXAMPLE: You can have a spell that can be used on either yourself or a player, or it can be limited to yourself, or limited to an area. BUT, it cannot be area and another type
+  PossibleTargets <- List of Target()s EXAMPLE: You can have a spell that can be used on either yourself or a player, or it can be 
+  limited to yourself, or limited to an area. BUT, it cannot be area and another type
   TargetFriendly <- bool
   
   Effects <- Dictionary of (Effects: Potency)
   
-  make a constructor that 
+  Make a constructor
   
   SpellTarget <- List of GameObjects // this will be singular for the single spells or will be a list of all that are inside the area of effect 
   
