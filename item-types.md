@@ -2,7 +2,7 @@ a "Pseudo-code" file detailing what an item is and all the different things that
 
 # Item
 * Name - string
-* Magic retention coefficient - int (-100 to 100) // Every item with an active magic effect has the capacity to store mana, a positive coefficient stores a little bit of mana each use, while a negative coefficient loses some stored mana with each use (the stored mana can then be used to cast it's active effects without using up your mana. The item will break and needs repairing if the amount stored exceeds its limit)
+* Magic retention coefficient - int (-100 to 100) // Every item with an active magic effect has the capacity to store mana, a positive coefficient stores a little bit of mana each use, while a negative coefficient loses some stored mana with each use (the stored mana can then be used to cast its active effects without using up your mana. The item will break and needs repairing if the amount stored exceeds its limit)
 * Channeling coefficient - int (0 - limit) // how efficient mana use is with the item, the higher the number, the better cost/effect ratio
 * weight - int (0 - limit)
 ## Weapon
