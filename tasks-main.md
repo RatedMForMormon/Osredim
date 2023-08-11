@@ -21,6 +21,7 @@ Complete the LOWEST level of tasks before attempting to complete a higher one
 ## Visuals
 * Animation
   * Charachers
+    * Players, in VR and Desktop I want the playermodel to lean down towards the direction they are running like football players do, but keep the perspective of the player from moving to not induce motion sickness, maybe keep the hands free for vr players to make it more immersive.
   * Environment
 * Graphics
   * Charachers
