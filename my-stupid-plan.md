@@ -14,7 +14,7 @@ The game development needs to be planned or it will not ever get done.
 I don't know nearly enough about games to develop something of this scale, so I need to learn about game development so I can actually get a proper workflow.
 
 ## Tasks - This is the pre-workout to making the game
- - learn MonoGame and another code-heavy game engine, I can't remember what it's called
+ - learn Godot
  - learn about making a game engine?
  - learn about the tools that are currently available to game developers, Unity works, but I want to find as many pre-built programs to streamline the process, if nothing is found, we move to task 2.
  - This in mind, become familiar with said tools and use them until we are absolutely comfortable using them for many situations.
