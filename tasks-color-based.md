@@ -30,7 +30,7 @@ You get the pattern now?
 * Suppress Target
 ## Manipulation Spells
 This one is a bit different, it doesn't produce any effects, it manipulates the flow of mana, so it can change the target of an active skill
-* Manipulate Mana
+* Set target
 
 After the six colors comes two more, White and Black, Black can be shosen at the beginning of the game, and it gives your character access to black magic and you forego all the colored abilities. White is vastly superior, but you need to achieve 100% proficiency before unlocking it
 
@@ -52,9 +52,9 @@ Tasks that need completed for this to work
 
 * NPC class created
 * Item class created
-* interactor class created - interacts with various things, allows spells to affect their targets - calls functions that lower or raise numbers associated with the target
+* interactor class created? may already exist within game engines - interacts with various things, allows spells to affect their targets - calls functions that lower or raise numbers associated with the target
   * can interact with Spells, NPCs, Items, Players(including self) 
 * Spell class? could potentially be the same or a child of interactor
 * weapon class? child of item - also an interactor
 * armor class? child of item - not an interactor, other items calculate its interaction depending on the skills and attributes it has
-* Something that creates a new item
+* Something that creates a new item - this is just a constructor.
